@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+  
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .header,
+      .footer {
+        background-color: #800020;
+        color: white;
+        padding: 15px;
+      }
+      
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .menu {
+        width: 25%;
+      }
+      
+      .content {
+        width: 75%;
+      }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff;
+      }
+      
+      .menu li:hover {
+        background-color: #800020;
+      }
+
+    </style>
+
+
+  <body>
+
+    <div class="header">
+      <h1>Enver Creek</h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a href="https://www.surreyschools.ca/schools/envercreek/About/Pages/default.aspx" target="_blank">More About the School</a></li>
+          <li><a href="https://www.surreyschools.ca/schools/envercreek/Departments/Pages/default.aspx" target="_blank">Departments</a></li>
+          <li><a href="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/Pages/default.aspx" target="_blank">Extra-Curricular</a></li>
+
+
+        </ul>
+      </div>
+
+      <div class="column content">
+        <h1>About the School</h1>
+        <p>Enver Creek is a beautiful school, our school is very respectful. We have programs for all types of students, we have lots of sports teams like Basketball, Soccer, Badminton, and more. All our teachers are friendly and helpful and will make sure
+          you understand what is being taught.
+          <p>Click on the links to learn more about </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p></p>
+    </div>
+
+  </body>
